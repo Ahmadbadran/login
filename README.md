@@ -1,3 +1,3 @@
 # login
 
-[https://login-beige-two.vercel.app/login]
+[https://login-beige-two.vercel.app/]
