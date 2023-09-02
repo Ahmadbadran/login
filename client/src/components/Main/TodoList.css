@@ -1,0 +1,159 @@
+/* TodoList.css */
+
+.container {
+    /* max-width: 600px; */
+    margin: 0 auto;
+    /* padding: 5px; */
+ 
+    font-family: Arial, sans-serif;
+  }
+  
+  .title {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .input-container {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .input,
+  .select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    flex: 1;
+    font-size: 14px;
+  }
+  
+  .add-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  .add-button2 {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    width: 100px;
+  }
+  
+  .todo-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .todo-item {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .checkbox {
+    margin-right: 10px;
+  }
+  
+  .todo-title {
+    font-size: 18px;
+  }
+  
+  .todo-description {
+    font-size: 14px;
+  }
+  
+  .todo-due-date{
+    width: fit-content;
+    height: fit-content;
+  }
+  .todo-state {
+    font-size: 12px;
+    margin-top: 5px;
+  }
+  
+  .delete-button {
+    background-color: #ff0000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 12px;
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+  .change-state-button {
+    background-color: #28a745; /* Green color for "Change State" button */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 12px;
+    cursor: pointer;
+    margin-left: 5px; /* Adjust margin as needed */
+  }
+  .edit-form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+  }
+  
+  .edit-form input,
+  .edit-form select {
+    margin: 5px 0;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+  }
+  
+  .edit-form button {
+    margin: 5px 0;
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .edit-form button.cancel {
+    background-color: #ccc;
+  }
+  .navbar {
+	width: 100%;
+	height: 70px;
+	background-color: #3bb19b;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.navbar h1 {
+	color: white;
+	font-size: 25px;
+	margin-left: 20px;
+}
+
+.white_btn {
+	border: none;
+	outline: none;
+	padding: 12px 0;
+	background-color: white;
+	border-radius: 20px;
+	width: 120px;
+	font-weight: bold;
+	font-size: 14px;
+	cursor: pointer;
+	margin-right: 20px;
+}
